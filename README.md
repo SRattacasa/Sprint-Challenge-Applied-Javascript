@@ -30,13 +30,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+It's the "document objects" that are available within the browser. They make up the different elements that create the structure of the page, the contents, etc.
+
 2. What is an event?
+
+An event is an action that takes place on a page / within the browser
 
 3. What is an event listener?
 
+Something that waits to "hear" a specific event, and then takes some determined action.
+
 4. Why would we convert a NodeList into an Array?
 
+To have access to the wider range of array based methods that are not available on NLs
+
 5. What is a component?
+
+A segment of a page that has related content or actions. Breaking sites into smaller components allows for teams to work on component-level features with more focus and specificity. 
 
 ### Git Set up
 
