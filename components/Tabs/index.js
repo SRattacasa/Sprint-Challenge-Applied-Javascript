@@ -14,7 +14,7 @@
 let tabURL = 'https://lambda-times-backend.herokuapp.com/topics';
 axios.get(tabURL)
   .then((response) => {
-      console.log(response)
+    //   console.log(response)
       response.data.topics.forEach(element => {
           let divClass = document.createElement('div');
           let divTopics = document.querySelector('.topics')

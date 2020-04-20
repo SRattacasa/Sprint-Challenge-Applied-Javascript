@@ -35,4 +35,4 @@ function Header() {
     return headerVar;
 }
 
-console.log(Header());
+Header();
